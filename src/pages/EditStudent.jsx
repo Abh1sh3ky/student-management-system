@@ -28,10 +28,11 @@ const EditStudent = () => {
 
   const [courses, setCourses] = useState([])
 
+  
   const getCourses = async () => {
     try {
       const response = await axios.get('http://localhost:3000/students');
-      courses = setCourses(response.data)
+      setCourses(response.data);
       console.log(response.data);
 
     }
