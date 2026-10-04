@@ -2,14 +2,14 @@
   "students": [
     {
       "id": "1",
-      "name": "Aarav Mehta",
-      "email": "aarav.mehta@gmail.com",
-      "phone": "9123456701",
+      "name": "Abhishek Yadav",
+      "email": "ay0461294@gmail.com",
+      "phone": "9973530779",
       "age": 22,
       "gender": "Male",
       "course": "Web Development",
-      "city": "Delhi",
-      "address": "Dwarka, New Delhi",
+      "city": "Meerut",
+      "address": "Swami Vivekananda subharti University meerut Bai pass NH 58NH-58, Delhi-Haridwar bypass road, meerut",
       "enrollmentDate": "2026-09-18",
       "status": "Active"
     },
@@ -37,19 +37,6 @@
       "city": "Roorkee",
       "address": "Civil Lines, Roorkee",
       "enrollmentDate": "2026-09-14",
-      "status": "Active"
-    },
-    {
-      "id": "4",
-      "name": "Ananya Sharma",
-      "email": "ananya.sharma@gmail.com",
-      "phone": "9123456704",
-      "age": 20,
-      "gender": "Female",
-      "course": "Full Stack Development",
-      "city": "Mumbai",
-      "address": "Bandra West, Mumbai",
-      "enrollmentDate": "2026-09-12",
       "status": "Active"
     },
     {
@@ -92,32 +79,6 @@
       "status": "Active"
     },
     {
-      "id": "8",
-      "name": "Nisha Verma",
-      "email": "nisha.verma@gmail.com",
-      "phone": "9123456708",
-      "age": 23,
-      "gender": "Female",
-      "course": "Web Development",
-      "city": "Chandigarh",
-      "address": "Sector 22, Chandigarh",
-      "enrollmentDate": "2026-08-28",
-      "status": "Inactive"
-    },
-    {
-      "id": "9",
-      "name": "Vihaan Singh",
-      "email": "vihaan.singh@gmail.com",
-      "phone": "9123456709",
-      "age": 25,
-      "gender": "Male",
-      "course": "Full Stack Development",
-      "city": "Bengaluru",
-      "address": "Electronic City, Bengaluru",
-      "enrollmentDate": "2026-08-25",
-      "status": "Active"
-    },
-    {
       "id": "10",
       "name": "Myra Gupta",
       "email": "myra.gupta@gmail.com",
@@ -128,19 +89,6 @@
       "city": "Kanpur",
       "address": "Swaroop Nagar, Kanpur",
       "enrollmentDate": "2026-08-22",
-      "status": "Active"
-    },
-    {
-      "id": "11",
-      "name": "Devansh Rawat",
-      "email": "devansh.rawat@gmail.com",
-      "phone": "9123456711",
-      "age": 24,
-      "gender": "Male",
-      "course": "Java Development",
-      "city": "Haridwar",
-      "address": "Shivalik Nagar, Haridwar",
-      "enrollmentDate": "2026-08-19",
       "status": "Active"
     },
     {
@@ -272,6 +220,45 @@
       "enrollmentDate": "2026-10-04",
       "status": "Active",
       "id": "UNXlTgfIcdg"
+    },
+    {
+      "name": "Abhishek Yadav099",
+      "email": "ay0461294@gmail.com",
+      "phone": "09973530779",
+      "age": "33",
+      "gender": "Male",
+      "course": "Node.js Development",
+      "city": "Meerut",
+      "address": "Swami Vivekananda subharti University meerut Bai pass NH 58NH-58, Delhi-Haridwar bypass road, meerut",
+      "enrollmentDate": "2026-10-10",
+      "status": "Inactive",
+      "id": "5Kd8fuE6j_Q"
+    },
+    {
+      "name": "Abhishek Yadav9973",
+      "email": "ay0461294@gmail.com",
+      "phone": "9973530804",
+      "age": "40",
+      "gender": "Male",
+      "course": "Java Development",
+      "city": "Meerut",
+      "address": "Swami Vivekananda subharti University meerut Bai pass NH 58NH-58, Delhi-Haridwar bypass road, meerut",
+      "enrollmentDate": "2026-10-04",
+      "status": "Active",
+      "id": "75lHmTwKy_s"
+    },
+    {
+      "name": "Vicky",
+      "email": "vicky@gmail.com",
+      "phone": "7372068853",
+      "age": "56",
+      "gender": "Male",
+      "course": "Full Stack Development",
+      "city": "noida",
+      "address": "Swami Vivekananda subharti University meerut Bai pass NH 58NH-58, Delhi-Haridwar bypass road, meerut",
+      "enrollmentDate": "2026-10-04",
+      "status": "Active",
+      "id": "LxnFW6QvJAk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

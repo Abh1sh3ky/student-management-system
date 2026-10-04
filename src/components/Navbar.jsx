@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
-
+import logo from "./logo/studenthub-logo.png.png"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -11,11 +11,26 @@ const Navbar = () => {
 
   return (
     <header>
-      <div className="container">
+      {/* <div className="container">
 
         <div className="headerLeft">
-          <div className="logo">StudentHub</div>
-        </div>
+          <div className="logo">Student Management System</div>
+        </div> */}
+
+
+
+
+        <div className="container">
+
+        {/* Logo */}
+        <div className="headerLeft">
+          <div className="logo">
+            <img
+              src={logo}
+              alt="StudentHub Logo"
+            />
+          </div>
+        </div> 
 
         {/* Hamburger button */}
         <button
@@ -50,3 +65,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

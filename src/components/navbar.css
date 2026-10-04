@@ -126,7 +126,7 @@ header nav a.active {
   header .logo {
     font-size: 25px;
   }
-
+  
   /* Show hamburger */
   .hamburger {
     display: flex;
@@ -183,5 +183,48 @@ header nav a.active {
 
   body {
     padding-top: 90px;
+  }
+}
+
+/* Logo */
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 130px;
+  height: auto;
+  max-height: 55px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Tablet */
+@media (min-width: 769px) {
+  .logo img {
+    width: 130px;
+    max-height: 55px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .logo img {
+    width: 120px;
+    max-height: 50px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .logo img {
+    width: 105px;
+    max-height: 45px;
   }
 }
