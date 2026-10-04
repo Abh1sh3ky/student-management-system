@@ -24,9 +24,17 @@ A Student Management System built using React.js.
 
 ## Run Locally
 
+Install dependencies:
+
 bash
 npm install
+
+
+Start React app:
+
+bash
 npm run dev
+
 
 Start JSON Server:
 
