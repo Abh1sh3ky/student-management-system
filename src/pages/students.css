@@ -1,0 +1,107 @@
+table{
+    width: 100%;
+    border: solid 1px #ccc;
+    border-collapse: collapse;
+}
+table thead{
+    background-color: #eee;
+    text-align: left;
+}
+table td, table th{
+    padding: 5px 10px;
+    border-bottom: solid 1px #ccc;
+}
+table button{
+    padding: 5px 10px;
+    margin-right: 2px;
+}
+table button.editBtn{
+    background-color: green;
+}
+table button.delBtn{
+    background-color: red;
+}
+.status{
+    background-color: beige;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+/* modal css */
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+.modalBox {
+  background: white;
+  padding: 25px;
+  width: 350px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.modalButtons button {
+  padding: 8px 20px;
+  cursor: pointer;
+}
+.filters {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.filters .searchContainer {
+    max-width: 250px;
+    margin-right: 15px
+}
+.filters .searchContainer input{
+    height: 36px;
+    border: solid 1px #ccc;
+    width: 100%;
+    padding: 3px 10px;
+    font-size: 16px;
+}
+.filters select{
+    height: 36px;
+    border: solid 1px #ccc;
+    width: 100%;
+    padding: 3px 10px;
+    font-size: 16px;
+}
+.noRecords{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    
+}
+@media (max-width: 768px){
+    .tableWrapper{
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .tableWrapper table{
+        width: 900px;
+    }
+}
